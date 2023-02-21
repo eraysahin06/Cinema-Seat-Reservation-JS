@@ -10,11 +10,12 @@
 <body>
     
     <div class="container">
+        <div class="screen"></div>
         <div class="row">
             <div class="seat"></div>
             <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
+            <div class="seat reserved"></div>
+            <div class="seat reserved"></div>
             <div class="seat"></div>
             <div class="seat"></div>
             <div class="seat"></div>
@@ -25,8 +26,8 @@
             <div class="seat"></div>
             <div class="seat"></div>
             <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
+            <div class="seat reserved"></div>
+            <div class="seat reserved"></div>
             <div class="seat"></div>
             <div class="seat"></div>
         </div>
@@ -62,6 +63,33 @@
         </div>
     </div>
 
+    <div class="movie-list">
+        <select name="" id="movie">
+            <option disabled>Select a Movie</option>
+            <option value="10">Movie 1</option>
+            <option value="15">Movie 2</option>
+            <option value="20">Movie 3</option>
+        </select>
+    </div>
+
+    <ul class="info">
+        <li>
+            <div class="seat selected"></div>
+            <small>Selected</small>
+        </li>
+        <li>
+            <div class="seat"></div>
+            <small>Empty</small>
+        </li>
+        <li>
+            <div class="seat reserved"></div>
+            <small>Reserved</small>
+        </li>
+    </ul>
+
+    <p>
+       Price for <span id="count">3</span> seats: $<span id="amount">30</span>. 
+    </p>
 
     <!-- script -->
     <script src="script.js"></script>

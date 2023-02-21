@@ -73,3 +73,8 @@ body{
 p.text span{
     color: #f6eb6f;
 }
+
+#count, #amount{
+    font-weight: 700;
+    color: #f6eb6f;
+}
